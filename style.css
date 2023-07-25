@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+h1{
+    color: orange;
+  text-align: center;
+}
+
+.digit{
+    font-size: 100px;
+    color: black;
+}
+.txt{
+    font-size: 100px;
+    color: black;
+}
+
+#buttons {
+    margin-top: 50px;
+}
+.btn{
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    
+}
+
+#start{
+    background-color: green;
+}
+#stop{
+    background-color: red;
+}
+#reset{
+    background-color: blue;
+}
